@@ -1,6 +1,6 @@
 {
   "name": "remark-shaku-web-worker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Web worker for remark-shaku-code-annotate",
   "keywords": [
     "annotate",
@@ -10,13 +10,13 @@
     "web",
     "worker"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/kingller/remark-shaku-web-worker",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/kingller/remark-shaku-web-worker/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@git.gaiaworks.cn:fe/pandora.git"
+    "url": "git@github.com:kingller/remark-shaku-web-worker.git"
   },
   "author": "Kingller Tang",
   "files": [
@@ -26,7 +26,8 @@
   "main": "./dist/index.js",
   "module": "./src/index.ts",
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 webpack --config ./webpack.config.js --mode=production --progress"
+    "build": "cross-env NODE_OPTIONS=--max_old_space_size=6144 webpack --config ./webpack.config.js --mode=production --progress",
+    "eslint": "eslint --ext .tsx,.ts --fix"
   },
   "husky": {
     "hooks": {
