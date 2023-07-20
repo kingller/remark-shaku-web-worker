@@ -92,6 +92,6 @@
     "webpack-merge": "5.8.0"
   },
   "publishConfig": {
-    "registry": "https://www.npmjs.com"
+    "registry": "https://registry.npmjs.org"
   }
 }
